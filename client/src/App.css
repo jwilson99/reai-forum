@@ -26,6 +26,18 @@
   cursor: pointer;
 }
 
+.search-bar {
+  background-color: #f0f2f3;
+  color: #a9b9d4;
+  border: 1px solid #f0f2f3;
+  padding: 5px;
+  outline: none;
+}
+
+.search-bar:focus {
+  border: 1px solid #8b8d8e;
+}
+
 .App-header {
   background-color: #9464d1;
   height: 160px;
@@ -39,7 +51,24 @@
   justify-content: center;
 }
 
-.App-intro {
+.App-body {
   font-size: large;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.sidebar {
+  width: 20%;
+  color: #9aaac4;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+
+.forums {
+  width: 70%;
 }
 

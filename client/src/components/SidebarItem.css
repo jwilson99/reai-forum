@@ -1,0 +1,7 @@
+.sidebar-item {
+    margin-top: 10px;
+}
+
+.sidebar-item:hover {
+    cursor: pointer;
+}

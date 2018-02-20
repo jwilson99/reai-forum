@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-import './Card.css';
+import './ForumItem.css';
 
-class Card extends Component {
+class ForumItem extends Component {
 
-    classes = `Card ${this.props.color}`;
+    classes = `sidebar-item`;
 
     render() {
         return (
@@ -11,14 +11,10 @@ class Card extends Component {
                 <div>
                     {this.props.name}
                 </div>
-
-                <div className="Card-label">
-                    {this.props.subheader}
-                </div>
             </div>
 
         );
     }
 }
 
-export default Card;
+export default ForumItem;

@@ -7,6 +7,8 @@
     position: relative;
     padding-top: 10px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2px;
+    font-weight: 100;
 }
 
 .Card-purple {
@@ -18,7 +20,7 @@
 }
 
 .Card-blue {
-    background-color: #78a2d3;
+    background-color: #4f89db;
 }
 
 .Card-indigo {
@@ -26,7 +28,7 @@
 }
 
 .Card-label {
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.20);
     width: 100%;
     height: 50px;
     position: absolute;
@@ -34,6 +36,7 @@
     left: 0;
     font-size: 0.75em;
     padding-top: 10px;
+    border-radius: 0 0 2px 2px;
 }
 
 .Card:hover {

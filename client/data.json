@@ -1,0 +1,25 @@
+{
+  "forums": {
+    "books": [
+      {"title":"Harry Potter: is Snape a Deatheater???",
+        "author":"Hermoine"},
+      {"title": "I wrote a book; come read it!",
+        "author": "Brian"},
+      {"title":"Book report due! Help!", "author":"Desperate Student"}
+    ],
+    "videogames": [
+      {"title":"The new LoZ game is super fun!", "author":"Link"},
+      {"title":"Mario: I'm stuck on the first level! :(", "author":"Luigi"},
+      {"title":"All I have are board games...", "author":"Grandma"},
+      {"title":"Is the new Nintendo Switch worth the price??", "author":"Skeptical"}
+    ],
+    "moviesandshows": [
+      {"title": "Black Panther: a New Record!", "author": "Thor"},
+      {"title":"Game of Thrones: Who saw the last episode??", author:"Hodor"},
+      {"title":"Is Star Wars good?? No spoilers!", "author":"Luke"}
+    ],
+    "music": [
+      {"title":"Super Bowl: Timberlake's still got it"}
+    ]
+  }
+}
