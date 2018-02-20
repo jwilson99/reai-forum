@@ -13,6 +13,11 @@
     background-color: #29de7a;
 }
 
+.Button-grey {
+    background-color: #f0f2f3;
+    color: #a9b9d4;
+}
+
 .Button:hover {
     cursor: pointer;
 }

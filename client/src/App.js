@@ -13,7 +13,7 @@ class App extends Component {
                 <nav className="nav">
                     <div className="nav-section">
                         <div className="nav-item">
-                            LOGO
+                            LOGO PLACEHOLDER
                         </div>
                         <div className="nav-item">
                             Chat
@@ -40,10 +40,22 @@ class App extends Component {
 
                 <header className="App-header">
                     <h1 className="App-title">
-                        <Card name="Books" color="Card-purple"/>
-                        <Card name="Video Games" color="Card-orange"/>
-                        <Card name="Movies & Shows" color="Card-blue"/>
-                        <Card name="Music" color="Card-indigo"/>
+                        <Card
+                            name="Books"
+                            discussions="128"
+                            color="Card-purple"/>
+                        <Card
+                            name="Video Games"
+                            discussions="128"
+                            color="Card-orange"/>
+                        <Card
+                            name="Movies & Shows"
+                            discussions="128"
+                            color="Card-blue"/>
+                        <Card
+                            name="Music"
+                            discussions="128"
+                            color="Card-indigo"/>
                     </h1>
                 </header>
 

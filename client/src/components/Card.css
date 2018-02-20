@@ -1,7 +1,7 @@
 .Card {
     width: 20%;
     height: 150px;
-    color: white;
+    color: rgba(255,255,255,0.8);
     margin-top: 3px;
     box-sizing: border-box;
     position: relative;
@@ -25,6 +25,23 @@
 
 .Card-indigo {
     background-color: #7f7ace;
+}
+
+.Card-title {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Card-name {
+    text-align: left;
+}
+
+.Card-discussions {
+    font-size: 0.6em;
+    color: rgba(255,255,255,0.50);
+    min-width: 50%;
 }
 
 .Card-label {
