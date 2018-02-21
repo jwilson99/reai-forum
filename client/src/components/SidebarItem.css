@@ -1,7 +1,14 @@
 .sidebar-item {
     margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 .sidebar-item:hover {
     cursor: pointer;
+}
+
+.sidebar-icon {
+    margin-right: 5px;
 }

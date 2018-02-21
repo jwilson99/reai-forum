@@ -8,6 +8,9 @@ class SidebarItem extends Component {
     render() {
         return (
             <div className={this.classes}>
+                <div className="sidebar-icon">
+                    <i className="material-icons md-18 search-icon">{this.props.icon}</i>
+                </div>
                 <div>
                     {this.props.name}
                 </div>

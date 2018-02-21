@@ -1,0 +1,33 @@
+.forum-item {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.forum-left {
+    display: flex;
+    align-items: center;
+}
+
+.forum-title {
+    margin-left: 5px;
+    color: #7b7b7b;
+}
+
+.forum-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.tag {
+    background-color: #af6ff5;
+    color: white;
+    margin: 1px;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 0.75em;
+}

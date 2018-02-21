@@ -1,8 +1,14 @@
+i {
+    padding-left: 5px;
+}
+
 .Button {
     color: white;
     border: none;
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
 }
 
 .Button-large {

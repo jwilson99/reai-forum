@@ -9,6 +9,8 @@ class Button extends Component {
         return (
             <button className={this.classes}>
                 {this.props.name}
+
+                <i className="material-icons md-18">{this.props.icon}</i>
             </button>
         );
     }
